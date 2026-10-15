@@ -1,0 +1,33 @@
+.basic-form .field { margin-bottom: 1rem; }
+.basic-form label { display: block; margin-bottom: .25rem; font-weight: 600; }
+.basic-form input[type="text"],
+.basic-form input[type="email"],
+.basic-form textarea {
+    width: 100%;
+    padding: .5rem .75rem;
+    border: 1px solid #adb5bd;
+    border-radius: 6px;
+    font: inherit;
+    box-sizing: border-box;
+}
+.basic-form textarea { resize: vertical; min-height: 6rem; }
+.basic-form input:focus,
+.basic-form textarea:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 .2rem rgba(13, 110, 253, .25);
+}
+.basic-form button {
+    margin-top: .5rem;
+    padding: .5rem 1.25rem;
+    border: 0;
+    border-radius: 6px;
+    background: #0d6efd;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+}
+.basic-form button:hover { background: #0b5ed7; }
+.basic-form .hint { color: #6c757d; font-size: .875rem; }
+
+footer.site-footer { color: #6c757d; font-size: .9rem; }
